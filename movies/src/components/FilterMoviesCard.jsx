@@ -76,7 +76,7 @@ export default function FilterMoviesCard(props) {
                         defaultValue=""
                         value={props.genreFilter}
                         onChange={handleGenreChange}
-                    >
+                     variant={"filled"}>
                         {genres.map((genre) => {
                             return (
                                 <MenuItem key={genre.id} value={genre.id}>
