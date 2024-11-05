@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import MovieDetails from 'movies/src/components/movieDetails/index.jsx'
+import MovieDetails from './components/movieDetails/index'
 
 const sample = {
     adult: false,
