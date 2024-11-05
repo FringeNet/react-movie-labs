@@ -1,6 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import HomePage from "./pages/homePage";
+import MovieDetails from 'movies/src/components/movieDetails/index.jsx'
 
 const sample = {
     adult: false,
@@ -87,7 +88,7 @@ const movies = [sample, sample, sample, sample, sample, sample, sample];
 
 const App = () => {
     return (
-        <HomePage movies={movies} />
+        <MovieDetails movie={sample} images={images} />
     );
 };
 
